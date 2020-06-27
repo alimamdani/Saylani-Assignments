@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkseagreen; 
+}
+h1 {
+    margin: 50px 0 50px 420px;
+    padding: 0;
+    font-size: 48px;
+}
+.main {
+    margin: 0 auto;
+    padding: 0; 
+    width: 260px;
+    height: auto;
+    background-color: transparent;
+    border: 1px solid green;
+}
+.inputFeild {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #0058F9;
+}
+.btn {
+    margin: 1px;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    transition: .3s ease-in;
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 18px;
+}
+/* .btn:hover{
+    background-color: lightslategrey;
+} */
+.fullBtn {
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    transition: .3s ease-in;
+    border-radius: 5px;
+    background-color: coral;
+    font-size: 28px;
+}
+/* .fullBtn:hover{
+    background-color: lightslategrey;
+} */
+.halfBtn {
+    margin: 2px;
+    padding: 0;
+    width: 190px;
+    height: 60px;
+    transition: .3s ease-in;
+    border-radius: 5px;
+    background-color: darkgreen;
+    font-size: 18px;
+}
+/* .halfBtn:hover{
+    background-color: lightslategrey;
+} */
+.marque {
+    font-size: 32px;
+    background-color: tomato;
+}
