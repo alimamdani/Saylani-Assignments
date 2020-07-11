@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    
+</head>
+<body>     
+        <div class="card">
+            <h1 class="heading">Stopwatch</h1>
+            <div class="head">
+                <div class="hours" style="text-align: center;">
+                    <h2>Hours</h2> 
+                    <div id="hour" class="timer">
+                        <h2>00</h2>
+                    </div> 
+                </div>
+                <div  class="mins">
+                    <h2>Minutes</h2>
+                    <div id="min" class="timer">
+                        <h2>00</h2>
+                    </div>
+                </div>
+                <div  class="secs">
+                    <h2>Seconds</h2>
+                     <div id="sec" class="timer">
+                        <h2>00</h2>
+                    </div>
+                </div>
+                <div  class="msecs">
+                    <h2>MiliSeconds</h2>
+                    <div id="msec" class="timer">
+                        <h2 style="margin-left: 30px;">00</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="time">
+                </div>
+                <div class="buttons">
+                    <button class="btn" onclick="start()" id="start">Start</button>
+                    <button class="btn" onclick="stop()" id="pause">Pause</button>
+                    <button class="btn" onclick="reset()" id="reset">Reset</button>
+                </div>
+               
+        </div>    
+        
+
+</body>
+        <script src="app.js"></script>
+        
+</html>
