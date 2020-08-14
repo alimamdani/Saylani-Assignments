@@ -1,0 +1,61 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;   
+
+}
+img {
+    margin-left: 350px;
+    
+}
+h1 {
+    margin: 0 0 0 330px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+form {
+    margin: 20px 0 0 170px;
+    padding: 30px;
+    width: 800px;
+    height: 1000px;
+    background-color: blueviolet;
+    color: #ffffff;
+    line-height: 2.5em;
+    border-radius: 15px;
+}
+textarea {
+    width: 250px;
+    height: 70px;
+}
+span {
+    margin: 0 5px 0 5px;
+}
+
+button {
+    align-items: center;
+    width: 95px;
+    padding: 7px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    color: darkslateblue;
+}
+.thankh1
+{
+    color: green;
+    text-decoration: none;
+    margin: 20px 0 10px 0;
+}
+.thankh3 {
+    margin: 5px 0 0 0;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Geneva, Tahoma, sans-serif;
+}
+.goback {
+    margin: 10px 0 0 0;
+    color: purple;
+}
+label {
+    margin: 0 10px 0 0;
+}
