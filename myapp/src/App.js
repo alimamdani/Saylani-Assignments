@@ -1,19 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Firstclass from './components/firstclass';
 
-class App extends React.Component {
-  render() {
-    let firstName = "Ali Raza";
-    let lastName = "Mamdani";
-    let arr = [1 , 2 , 3 , 4 , 5]
-    return (
-      <div>
-        <h1>{`${firstName} ${lastName}`}</h1>
-        <h1>{arr}</h1>
-      </div>
+function App() {
+    return ( 
+     <div>
+       <Firstclass name="Ali Raza" />
+       <Firstclass />
+       <Firstclass name="Mamdani"/>
+       <Firstclass />
+       <Firstclass />
+       <Firstclass />
+       <Firstclass />
+     </div>
     )
-  }
-  
 }
-export default App;
+
+export default App
