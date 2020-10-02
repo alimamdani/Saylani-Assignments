@@ -1,0 +1,15 @@
+.test {
+    width: 100%;
+    height: 450px;
+    padding: 5px;
+    background-color: wheat;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+.main h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,20 @@
+.mainheader {
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.head {
+    color: white;
+    width: 50%;
+    text-align: center;
+    background-color: blueviolet;
+    
+}
+.head1 {
+    width: 50%;
+    color: #000;
+    background-color: tomato;
+    text-align: center;
+}

@@ -1,16 +1,14 @@
 import React from 'react'
-import Firstclass from './components/firstclass';
+import Header from './components/header';
+import Bodytest from './components/body';
+import Pageend from './components/footer';
 
 function App() {
     return ( 
      <div>
-       <Firstclass name="Ali Raza" />
-       <Firstclass />
-       <Firstclass name="Mamdani"/>
-       <Firstclass />
-       <Firstclass />
-       <Firstclass />
-       <Firstclass />
+      < Header />
+      < Bodytest /> 
+      < Pageend />
      </div>
     )
 }
