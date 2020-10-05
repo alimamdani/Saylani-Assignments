@@ -1,18 +1,17 @@
-import React from 'react';
-// import ".App.js"
+/* eslint-disable jsx-a11y/alt-text */
+import React,  {Component} from 'react';
+import Logo from './images/olxlogo.png' 
 import './css/header.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class Header extends React.Component {
+
+class Header extends Component {
     render() {
         return (
-            <div className="mainheader">
-                <div className="head">
-                    <h1>Logo</h1>
-                </div>
-                <div className="head1">
-                    <h1>Navigation Bar</h1>
-                </div>
-            </div>
+           <Container fluid="md">
+               
+           </Container>
+                
         )
     }
     
